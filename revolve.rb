@@ -7,6 +7,8 @@ require File.join(File.dirname(__FILE__), "lib", "method")
 require File.join(File.dirname(__FILE__), "lib", "program")
 require File.join(File.dirname(__FILE__), "lib", "population")
 
+require File.join(File.dirname(__FILE__), "lib", "describe")
+
 # TODO: describe/it syntax that can save programs to use if already evolved
 # TODO: Use Mocha in fitness cases
 # TODO: Make fitness case a class instead of passing lambdas?
